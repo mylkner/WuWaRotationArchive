@@ -1,6 +1,5 @@
 {
     "name": "wuthering-waves-rotation-archive",
-    "homepage": "https://mylkner.github.io/WutheringWavesRotationArchive/",
     "private": true,
     "version": "0.0.0",
     "type": "module",
