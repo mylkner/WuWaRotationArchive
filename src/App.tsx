@@ -5,7 +5,7 @@ import RotationPage from "./pages/RotationPage";
 
 function App() {
     return (
-        <HashRouter>
+        <HashRouter basename="/WuWaRotationArchive">
             <Header />
             <Routes>
                 <Route path="/" element={<CharacterList />} />
