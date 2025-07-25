@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import characterDb from "../data/characterData";
 import Character from "../models/CharacterClass";
 import CharacterPortrait from "./CharacterPortrait";
@@ -15,6 +16,52 @@ const RotationView = ({ team, rotation, index }: RotationViewProps) => {
     const characterPortraits: Character[] = team.map(
         (charName) => characterMap.get(charName)!
     );
+    const rotationAndNotesSplit: string[] = rotation.split(".", 2);
+    const rotationPart: string = rotationAndNotesSplit[0];
+    const notesPart: string = rotationAndNotesSplit[1];
+
+    const formatRotation = (): ReactNode => {
+        const splitRotation: string[] = rotationPart.split(",");
+
+        return splitRotation.map((splitRotationSegment, splitRotationIndex) => {
+            const asteriskSplit = splitRotationSegment.split(/(\*+)/);
+
+            return asteriskSplit.map(
+                (asteriskSplitSegment, asteriskSplitIndex) => {
+                    if (asteriskSplitSegment.length === 0) return;
+                    if (asteriskSplitSegment.includes("*")) {
+                        return asteriskSplitSegment;
+                    } else {
+                        const highlightColor = asteriskSplitSegment.includes(
+                            team[0]
+                        )
+                            ? "text-rose-300"
+                            : asteriskSplitSegment.includes(team[1])
+                            ? "text-sky-300"
+                            : "text-emerald-300";
+
+                        const punctuation =
+                            asteriskSplitIndex === asteriskSplit.length - 1 &&
+                            splitRotationIndex !== splitRotation.length - 1
+                                ? ","
+                                : splitRotationIndex ===
+                                  splitRotation.length - 1
+                                ? "."
+                                : "";
+
+                        return (
+                            <span
+                                key={asteriskSplitIndex}
+                                className={highlightColor}
+                            >
+                                {asteriskSplitSegment + punctuation}
+                            </span>
+                        );
+                    }
+                }
+            );
+        });
+    };
 
     return (
         <div className="flex flex-col gap-3 mb-12">
@@ -25,7 +72,10 @@ const RotationView = ({ team, rotation, index }: RotationViewProps) => {
                     <CharacterPortrait key={char.name} portraitData={char} />
                 ))}
             </div>
-            <p className="text-white text-xl">{rotation}</p>
+            <p className="text-white text-xl">
+                {formatRotation()}
+                {notesPart && notesPart + "."}
+            </p>
         </div>
     );
 };
