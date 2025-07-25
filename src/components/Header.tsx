@@ -7,8 +7,8 @@ const Header = () => {
     const [showInfoCard, setShowInfoCard] = useState<boolean>(false);
 
     return (
-        <header className="h-[5vh] w-full bg-gray-800 px-4 flex items-center justify-between">
-            <h1 className="text-xl font-bold text-white">
+        <header className="h-[5vh] w-full bg-gray-800 px-4 py-3 flex items-center justify-between">
+            <h1 className="text-lg font-bold text-white md:text-xl">
                 WuWa Rotation Archive
             </h1>
 
@@ -17,7 +17,7 @@ const Header = () => {
                     to="/"
                     className={({ isActive }) =>
                         isActive
-                            ? "text-white text-xl"
+                            ? "text-white text-lg md:text-xl"
                             : "text-neutral-400 text-xl transition-colors duration-150 ease-in hover:text-white"
                     }
                 >

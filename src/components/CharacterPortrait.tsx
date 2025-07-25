@@ -10,7 +10,9 @@ const CharacterPortrait = ({ portraitData }: CharacterPortraitProps) => {
         rarity === "5\u2605" ? "bg-yellow-600" : "bg-violet-500";
 
     return (
-        <div className={`flex flex-col ${bgColor} rounded-lg relative`}>
+        <div
+            className={`flex flex-col ${bgColor} rounded-lg relative max-w-[150px] md:max-w-[200px]`}
+        >
             <img
                 src={icons.element}
                 className="absolute top-0 left-0 h-[40px] w-[40px]"

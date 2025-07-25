@@ -34,10 +34,10 @@ const FilterGroup = <T,>({
                     {imgPathMaker ? (
                         <img
                             src={imgPathMaker(item)}
-                            className="h-[50px] w-[50px]"
+                            className="md:h-[50px] md:w-[50px] h-[35px] w-[35px]"
                         />
                     ) : (
-                        <p className="text-white text-2xl flex justify-center items-center h-[50px] w-[50px]">
+                        <p className="text-white text-xl flex justify-center items-center md:h-[50px] md:w-[50px] md:text-2xl h-[35px] w-[35px]">
                             {String(item)}
                         </p>
                     )}
