@@ -26,11 +26,7 @@ const InfoCard = ({ setShowInfoCard }: InfoCardProps) => {
                 </div>
 
                 <p className="text-lg text-white">
-                    These rotations are just what I personally use in Wuthering
-                    Waves. They may or may not be the most optimal, but just
-                    what I found that I thinks works well and fits my playstyle.
-                    Only characters I own/have built will be here. Feel free to
-                    adjust them in any way you please.
+                    Just a site for the rotations I personally use.
                 </p>
             </div>
         </div>
