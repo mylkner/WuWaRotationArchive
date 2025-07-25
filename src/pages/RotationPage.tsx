@@ -15,7 +15,7 @@ const RotationPage = () => {
     }
 
     return (
-        <div className="flex flex-col flex-wrap gap-3 p-10">
+        <div className="flex flex-col flex-wrap gap-3 p-5">
             <h1 className="text-white text-4xl">{charData.name}</h1>
             <hr className="text-white" />
             <div className="flex flex-col">
