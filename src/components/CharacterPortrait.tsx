@@ -15,11 +15,11 @@ const CharacterPortrait = ({ portraitData }: CharacterPortraitProps) => {
         >
             <img
                 src={icons.element}
-                className="absolute top-0 left-0 h-[40px] w-[40px]"
+                className="absolute top-0 left-0 h-[30px] w-[30px] md:w-[40px] md:h-[40px]"
             />
             <img
                 src={icons.weapon}
-                className="absolute top-0 right-0 h-[40px] w-[40px]"
+                className="absolute top-0 right-0 h-[30px] w-[30px] md:w-[40px] md:h-[40px]"
             />
             <img
                 className="w-full h-full object-fit-cover"
