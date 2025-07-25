@@ -12,12 +12,12 @@ const rotationDb: RotationData[] = [
             {
                 team: ["Rover-Havoc", "Danjin", "Shorekeeper"],
                 rotation:
-                    "Shorekeeper (BA4-HA/Intro)-E, Danjin BA2-E2, Rover E, Shorekeeper BA4-HA-Q-R, Intro Danjin E2-R-E-BA-E-Forte-Q, Intro Rover MA-E-Forte-E-BA5-BA5-BA3-R-Q.",
+                    "Shorekeeper (BA4-HA/Intro)-E, Danjin BA2-E2, Rover-Havoc E, Shorekeeper BA4-HA-Q-R, Intro Danjin E2-R-E-BA-E-Forte-Q, Intro Rover-Havoc MA-E-Forte-E-BA5-BA5-BA3-R-Q.",
             },
             {
                 team: ["Rover-Havoc", "Danjin", "Verina"],
                 rotation:
-                    "Intro* Danjin BA2-E2, Rover E, Verina BA3-E-Q-R-Forte, Intro Danjin E2-R-E-BA-E-Forte-Q, Intro Rover MA-E-Forte-E-BA5-BA5-BA3-R-Q. *Second rotation onwards.",
+                    "*Intro Danjin BA2-E2, Rover-Havoc E, Verina BA3-E-Q-R-Forte, Intro Danjin E2-R-E-BA-E-Forte-Q, Intro Rover-Havoc MA-E-Forte-E-BA5-BA5-BA3-R-Q. *Second rotation onwards.",
             },
         ],
     },
