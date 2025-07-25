@@ -12,13 +12,13 @@ const Header = () => {
                 WuWa Rotation Archive
             </h1>
 
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-3">
                 <NavLink
                     to="/"
                     className={({ isActive }) =>
                         isActive
                             ? "text-white text-lg md:text-xl"
-                            : "text-neutral-400 text-xl transition-colors duration-150 ease-in hover:text-white"
+                            : "text-neutral-400 text-lg md:text-xl transition-colors duration-150 ease-in hover:text-white"
                     }
                 >
                     Characters

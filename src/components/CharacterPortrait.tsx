@@ -11,7 +11,7 @@ const CharacterPortrait = ({ portraitData }: CharacterPortraitProps) => {
 
     return (
         <div
-            className={`flex flex-col ${bgColor} rounded-lg relative max-w-[150px] md:max-w-[200px]`}
+            className={`flex flex-col ${bgColor} rounded-lg relative w-[120px] md:w-[180px]`}
         >
             <img
                 src={icons.element}
