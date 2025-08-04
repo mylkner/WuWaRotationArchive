@@ -25,6 +25,11 @@ const RotationView = ({ team, rotation, index }: RotationViewProps) => {
 
         return splitRotation.map((splitRotationSegment, splitRotationIndex) => {
             const asteriskSplit = splitRotationSegment.split(/(\*+)/);
+            const highlightColor = splitRotationSegment.includes(team[0])
+                ? "text-rose-300"
+                : splitRotationSegment.includes(team[1])
+                ? "text-sky-300"
+                : "text-emerald-300";
 
             return asteriskSplit.map(
                 (asteriskSplitSegment, asteriskSplitIndex) => {
@@ -32,14 +37,6 @@ const RotationView = ({ team, rotation, index }: RotationViewProps) => {
                     if (asteriskSplitSegment.includes("*")) {
                         return asteriskSplitSegment;
                     } else {
-                        const highlightColor = asteriskSplitSegment.includes(
-                            team[0]
-                        )
-                            ? "text-rose-300"
-                            : asteriskSplitSegment.includes(team[1])
-                            ? "text-sky-300"
-                            : "text-emerald-300";
-
                         const punctuation =
                             asteriskSplitIndex === asteriskSplit.length - 1 &&
                             splitRotationIndex !== splitRotation.length - 1
