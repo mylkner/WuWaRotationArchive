@@ -37,7 +37,7 @@ const rotationDb: RotationData[] = [
             {
                 team: ["Encore", "Lupa", "Shorekeeper"],
                 rotation:
-                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Encore Q, Lupa Forte, Shorekeeper BA4-HA-E-Q-R-BA4-HA, Intro Lupa E-E, Intro Encore R-BA4-E-BA4-BA4-E-HA. *Second rotation onwards, **Only if ult isn't ready.",
+                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Shorekeeper BA4-HA-E, Lupa Forte, Encore Q, Shorekeeper Q-R-BA4-HA, Intro Lupa E-E, Intro Encore R-BA4-E-BA4-BA4-E-HA. *Second rotation onwards, **Only if ult isn't ready.",
             },
             {
                 team: ["Encore", "Lupa", "Verina"],
@@ -62,7 +62,7 @@ const rotationDb: RotationData[] = [
             {
                 team: ["Camellya", "Lupa", "Shorekeeper"],
                 rotation:
-                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Camellya Q-MA, Lupa Forte, Shorekeeper BA4-HA-E-Q-R-BA4-HA, Intro Lupa E-E, Intro Camellya E-R-HA-Jump-Forte-E-HA-E. *Second rotation onwards, **Only if ult isn't ready.",
+                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Shorekeeper BA4-HA-E, Lupa Forte, Camellya Q-MA, Shorekeeper Q-R-BA4-HA, Intro Lupa E-E, Intro Camellya E-R-HA-Jump-Forte-E-HA-E. *Second rotation onwards, **Only if ult isn't ready.",
             },
             {
                 team: ["Camellya", "Lupa", "Verina"],
@@ -112,7 +112,7 @@ const rotationDb: RotationData[] = [
             {
                 team: ["Carlotta", "Lupa", "Shorekeeper"],
                 rotation:
-                    "Carlotta HA-E-E, *Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Carlotta Q, Lupa Forte, Shorekeeper BA4-HA-E-Q-R-BA4-HA, Intro Lupa E-E, Intro Carlotta HA-E-E-MA-Forte-R6. *Second rotation onwards, **Only if ult isn't ready.",
+                    "Carlotta HA-E-E, *Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Shorekeeper BA4-HA-E, Lupa Forte, Carlotta Q, Shorekeeper Q-R-BA4-HA, Intro Lupa E-E, Intro Carlotta HA-E-E-MA-Forte-R6. *Second rotation onwards, **Only if ult isn't ready.",
             },
             {
                 team: ["Carlotta", "Lupa", "Verina"],
@@ -142,7 +142,7 @@ const rotationDb: RotationData[] = [
             {
                 team: ["Encore", "Lupa", "Shorekeeper"],
                 rotation:
-                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Encore Q, Lupa Forte, Shorekeeper BA4-HA-E-Q-R-BA4-HA, Intro Lupa E-E, Intro Encore R-BA4-E-BA4-BA4-E-HA. *Second rotation onwards, **Only if ult isn't ready.",
+                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Shorekeeper BA4-HA-E, Lupa Forte, Encore Q, Shorekeeper Q-R-BA4-HA, Intro Lupa E-E, Intro Encore R-BA4-E-BA4-BA4-E-HA. *Second rotation onwards, **Only if ult isn't ready.",
             },
             {
                 team: ["Encore", "Lupa", "Verina"],
@@ -164,7 +164,7 @@ const rotationDb: RotationData[] = [
             {
                 team: ["Camellya", "Lupa", "Shorekeeper"],
                 rotation:
-                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Camellya Q-MA, Lupa Forte, Shorekeeper BA4-HA-E-Q-R-BA4-HA, Intro Lupa E-E, Intro Camellya E-R-HA-Jump-Forte-E-HA-E. *Second rotation onwards, **Only if ult isn't ready.",
+                    "*Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Shorekeeper BA4-HA-E, Lupa Forte, Camellya Q-MA, Shorekeeper Q-R-BA4-HA, Intro Lupa E-E, Intro Camellya E-R-HA-Jump-Forte-E-HA-E. *Second rotation onwards, **Only if ult isn't ready.",
             },
             {
                 team: ["Camellya", "Lupa", "Verina"],
@@ -174,7 +174,7 @@ const rotationDb: RotationData[] = [
             {
                 team: ["Carlotta", "Lupa", "Shorekeeper"],
                 rotation:
-                    "Carlotta HA-E-E, *Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Carlotta Q, Lupa Forte, Shorekeeper BA4-HA-E-Q-R-BA4-HA, Intro Lupa E-E, Intro Carlotta HA-E-E-MA-Forte-R6. *Second rotation onwards, **Only if ult isn't ready.",
+                    "Carlotta HA-E-E, *Intro Lupa Q-**(E-E)-R-E-MA2-MA:Firestrike-HA, Shorekeeper BA4-HA-E, Lupa Forte, Carlotta Q, Shorekeeper Q-R-BA4-HA, Intro Lupa E-E, Intro Carlotta HA-E-E-MA-Forte-R6. *Second rotation onwards, **Only if ult isn't ready.",
             },
             {
                 team: ["Carlotta", "Lupa", "Verina"],
